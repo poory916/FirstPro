@@ -1,0 +1,14 @@
+@media only screen and (max-width: 760px) {
+    .plansContainer .cunsoltantButton {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+    }
+    .sampleItem .sampleLink {
+        bottom: 25%;
+        left: 35%;
+    }
+    .blogContainer .blogItem {
+        margin-bottom: 2.5rem;
+    }
+}

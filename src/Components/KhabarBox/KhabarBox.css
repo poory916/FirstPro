@@ -1,0 +1,35 @@
+.khabarBoxText {
+  text-align: justify;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.khabarBoxImg {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.khabarBoxItem {
+  border: 2px solid #eee;
+  border-radius: 20px;
+  padding: 20px;
+  transform: translateY(-15px);
+  background-color: white;
+}
+
+.descShadow {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 20px;
+}

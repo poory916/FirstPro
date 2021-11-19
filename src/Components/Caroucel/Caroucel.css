@@ -1,0 +1,133 @@
+.sliderImageFigure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.sliderImageFigure .sliderLink {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+}
+
+.sliderImageFigure .sliderImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sliderImageFigure .sliderDetail {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: max-content;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .SliderWrapper {
+    height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .SliderWrapper {
+    height: 250px !important;
+  }
+}
+
+.slick-slider,
+.slick-list {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-prev {
+  left: 50px !important;
+  transform: translateY(-50%);
+} 
+.slick-prev::before {
+  content: '<';
+}
+
+.slick-next {
+  right: 50px !important;
+  transform: translateY(-50%);
+}
+.slick-next::before {
+  content: '>';
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+  opacity: 1;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 15px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.slick-dots li button::before {
+  font-family: "slick";
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 6px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mySlider .slick-dots li.slick-active button::before {
+  opacity: 0.75;
+  color: #000;
+  background-color: #ff9e9e;
+}

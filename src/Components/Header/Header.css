@@ -1,0 +1,45 @@
+#brand{
+    width: 150px;
+}
+
+#tamas{
+    border-radius: 15px;
+    padding: 8px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+
+a{
+    font-size: 1.1rem;
+}
+
+li.nav-item{
+    border-bottom: 0.5px #aaa solid;
+    width: 100%;
+    margin: 6px 5px;
+}
+
+a.nav-link{
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 992px){
+    div.container{
+        flex-direction: row-reverse;
+    }
+    #tamas{
+        margin-left: 7rem;
+        display: inline;
+    }
+    div#main-nav{
+        flex-direction: row-reverse;
+        margin-left: 10rem;
+    }
+    li.nav-item{
+        border-bottom: 0.5px #aaa solid;
+        width: max-content;
+        margin: 0px 5px;
+    }
+    
+}

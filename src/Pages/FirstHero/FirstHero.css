@@ -1,0 +1,50 @@
+#base {
+  background-color: #f5f5f5;
+  margin-top: 40px;
+  width: 90%;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+/* section {
+  background-color: white;
+} */
+
+#con {
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#help {
+  padding: 40px;
+}
+
+h4#title {
+  border: 1px solid #198754;
+  border-radius: 15px;
+  width: max-content;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.text{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 992px){
+    .rev{
+        flex-direction: row-reverse;
+    }
+}

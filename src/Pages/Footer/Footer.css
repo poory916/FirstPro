@@ -1,0 +1,38 @@
+.footerBase {
+  width: 100%;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#footerText{
+    text-align: justify;
+}
+
+#footerText::before{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: #279357;
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+#footerLI::before{
+    width: 7px;
+    height: 7px;
+    content: '';
+    background-color: #279357;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.footerJustify{
+    text-align: justify;
+}
